@@ -1,3 +1,6 @@
+# 以下代码作用：
+# 将高维数据通过embedding降维
+
 # 导入 pandas 包。Pandas 是一个用于数据处理和分析的 Python 库
 # 提供了 DataFrame 数据结构，方便进行数据的读取、处理、分析等操作。
 import pandas as pd

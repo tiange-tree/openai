@@ -26,7 +26,9 @@ export OPENAI_API_KEY='你的-api-key'
 
 ### 3.1 Embedding
 
-- 加载数据集
-- 生成数据集的嵌入向量
-- 使用 t-SNE 可视化低维 Embedding 美食评论
+- text_embedding.py 生成数据集的嵌入向量
+- embedding_tsne.py 使用t-SNE对具有高维嵌入的美食评论数据进行降维，并生成二维可视化散点图
+- embedding_tsne_3d.py 使用t-SNE对具有高维嵌入的美食评论数据进行降维，并生成三维可视化散点图
+- embedding_kmeans.py 使用K-Means聚类对具有高维嵌入的美食评论数据进行聚类，并生成二维可视化散点图
+- embedding_search_review.py 使用cosine_similarity函数来对嵌入向量进行相似度搜索，并生成相似度最高的3个评论
 
